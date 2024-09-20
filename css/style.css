@@ -11,49 +11,43 @@ body{
 
 #main-container{
     display: flex;
-    margin-bottom: 30px;
-
+    margin-top: 30px;
 }
+
 #banner-container,
-#form-container{
-    
+#form-container {
     flex: 1 1 0 ;
     width: 50%;
 }
-#banner-container{
 
+#banner-container {
     text-align: right;
-
 }
 #banner-container img{
     width: 100%;
     margin-right: 15px;
-    margin-top: 25px ;
+    margin-top: 25px;
     max-width: 380px;
 }
-
-#form-container {
+#form-container{
     text-align: center;
 }
 
-#form-box {
+#form-box{
     background-color: #fff;
     border: 1px solid #dbdbdb;
     width: 350px;
     margin-top: 30px;
 }
-
-#logo-insta {
-    width: 175px;
-    height: 51px;
-    margin: 30px auto 12px;
+#logo-insta{
+   width: 175px;
+   height: 51px;
+   margin: 30px auto 12px;
 }
-
-#login-form {
+#login-form{
     margin-top: 20px;
 }
-
-#login-form input {
+#login-form input{   
     display: block;
     font-size: 12px;
     padding: 12px 9px;
@@ -65,31 +59,27 @@ body{
 }
 
 #login-form input[type="submit"]{
-    background-color: #29a7fa;
-    color: #fff;
-    margin-top: 12px;
+    background-color: #b2dffc;
+    color:#fff;
+    margin-top: 15px;
     border-radius: 5px;
-    height: 32px;
+    height: 30px;
     font-size: 13px;
     padding: 0;
     font-weight: bold;
-    
 }
-
-.separator {
+.separator{
     position: relative;
 }
-
-.line {
+.line{
     border-top: 1px solid #dbdbdb;
     width: 268px;
     margin: 25px auto 35px;
 }
-
-.separator span {
+.separator span{
     position: absolute;
     text-transform: uppercase;
-    color: #413535a2;
+    color: #bbb;
     background-color: #fff;
     top: -6px;
     width: 50px;
@@ -97,11 +87,10 @@ body{
     font-size: 14px;
 }
 
-#facebook-login {
+#facebook-login{   
     margin-bottom: 25px;
 }
-
-#facebook-login a {
+#facebook-login a{   
     display: flex;
     text-decoration: none;
     color: #385185;
@@ -109,18 +98,18 @@ body{
     align-items: center;
 }
 
-#facebook-login img {
+#facebook-login img{
     width: 16px;
     height: 16px;
     margin-right: 1px;
 }
 
-#forgot-pass {
+#forgot-pass{
     margin-bottom: 20px;
     font-size: 12px;
 }
 
-#forgot-pass a {
+#forgot-pass a{
     text-decoration: none;
     color: #373799;
 }
@@ -133,65 +122,64 @@ body{
     padding: 25px;
 }
 
-#register-container p {
+#register-container p{
     font-size: 14px;
-    color: #262626;
+    color: #262626
 }
-
-#register-container a {
+#register-container a{
     text-decoration: none;
     color: #4a95f6;
     font-weight: bold;
 }
 
-#get-app-container {
+#get-app-container{
     text-align: center;
     width: 350px;
 }
-
-#get-app-container p {
+#get-app-container p{
     margin: 20px 0;
     font-size: 13px;
 }
-
-#get-app-container a {
+#get-app-container a{
     text-decoration: none;
 }
-
-#get-app-container img {
+#get-app-container img{
     width: 136px;
     height: 40px;
 }
 
-footer {
+footer{
     display: flex;
     align-items: center;
-    width: 1000px;
+    width: center;
     max-width: 50px auto;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex;
+    padding: 10px;
 }
 
-#footer-links {
+#footer-links{
     display: flex;
     margin-right: 10px;
 }
 
-nav #footer-links {
+nav #footer-links{
     list-style: none;
 }
 
-nav #footer-links li {
+nav #footer-links li{
     margin-right: 10px;
+
 }
 
-#footer-links a,
-#copyright {
+#footer-links a, 
+#copyright{ 
     text-decoration: none;
     color: #8e8e8e;
     font-size: 12px;
 }
-
-#copyright {
+#copyright{   
     margin-top: 10px;
 }
+
+/* DESAFIO  - Trabalhar a responsividade desse projeto*/
